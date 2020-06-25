@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCF_Chat", "WCF_Chat\WCF_Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatHost", "ChatHost\ChatHost.csproj", "{975DFA71-84CA-4E38-9259-B62C68D0CD9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClient", "ChatClient\ChatClient.csproj", "{8B0E4C4E-FF84-45F8-898E-0A54DAF9397E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{975DFA71-84CA-4E38-9259-B62C68D0CD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{975DFA71-84CA-4E38-9259-B62C68D0CD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{975DFA71-84CA-4E38-9259-B62C68D0CD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0E4C4E-FF84-45F8-898E-0A54DAF9397E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0E4C4E-FF84-45F8-898E-0A54DAF9397E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0E4C4E-FF84-45F8-898E-0A54DAF9397E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0E4C4E-FF84-45F8-898E-0A54DAF9397E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

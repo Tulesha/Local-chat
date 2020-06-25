@@ -23,7 +23,7 @@ namespace WCF_Chat
             };
             nextID++;
 
-            SendMsg(user.Name + "joined the chat!", 0);
+            SendMsg(": " + user.Name + " joined the chat!", 0);
             users.Add(user);
             return user.ID;
         }
@@ -34,7 +34,7 @@ namespace WCF_Chat
             if (user != null)
             {
                 users.Remove(user);
-                SendMsg(user.Name + "left the chat", 0);
+                SendMsg(": " + user.Name + " left the chat", 0);
             }
         }
 
